@@ -19,7 +19,7 @@ from progress_bar import progress, TimeFormatter, humanbytes
 from dotenv import load_dotenv
 
 load_dotenv()
-URL = os.environ.get("URL")
+URL = os.getenv("https://vercel.com/wkwoeo/tik-tok-downloader-bot/AYioEMEpYjAtVmMvPSigJXLK7PpT")
 bot_token = os.environ.get('BOT_TOKEN')
 workers = int(os.environ.get('WORKERS'))
 api = int(os.environ.get('API_KEY'))
